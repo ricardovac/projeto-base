@@ -1,5 +1,4 @@
 import Vue from 'vue'
-import vue from 'vue'
 import Vuex from 'vuex'
 
 Vue.use(Vuex)
@@ -19,8 +18,6 @@ export default new Vuex.Store({
       } else {
         state.isMenuVisible = isVisible
       }
-
-      console.log('toggleMenu = ' + state.isMenuVisible)
     }
   }
 })

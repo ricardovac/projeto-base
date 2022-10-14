@@ -1,5 +1,5 @@
 module.exports = {
-  categoryWithChildren: `
+    categoryWithChildren: `
         WITH RECURSIVE subcategories (id) AS (
             SELECT id FROM categories WHERE id = ?
             UNION ALL
